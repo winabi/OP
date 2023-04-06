@@ -1,0 +1,19 @@
+Error output during function 2: 
+ERROR: no negative elements in the column 1. The corresponding element in the second array will be 0.
+ERROR: no negative elements in the column 4. The corresponding element in the second array will be 0.
+ERROR: no negative elements in the column 5. The corresponding element in the second array will be 0.
+
+Array:
+1	21	-1	23	1	
+2	121	-21	21	1	
+3	-22	21	333	2	
+4	11	1	444	3	
+
+Array after executing func1:
+0	1	-1	1	0	
+0	2	-21	1	0	
+0	-22	1	2	0	
+0	1	0	2	0	
+
+Array after executing func2:
+0	-22	-22	0	0	
